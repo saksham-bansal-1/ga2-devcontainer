@@ -6,5 +6,5 @@
         "astral-sh.uv",
         "ms-python.python"
     ],
-    "postCreateCommand": "pip install --upgrade pip && pip install fastapi"
+    "postCreateCommand": "uv pip install fastapi"
 }
