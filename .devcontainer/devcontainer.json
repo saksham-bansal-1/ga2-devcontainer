@@ -1,0 +1,10 @@
+{
+    "name": "ga2-e39071",
+    "image": "ghcr.io/devcontainers/features/python:1",
+    "features": {},
+    "extensions": [
+        "astral-sh.uv",
+        "ms-python.python"
+    ],
+    "postCreateCommand": "pip install --upgrade pip && pip install fastapi"
+}
